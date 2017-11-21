@@ -1,4 +1,4 @@
-config/settings.py
+postgres-data
+config/settings/settings.py
 .idea
 *.pyc
-TODO
