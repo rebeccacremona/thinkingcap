@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'onthisday',
     'colors',
+    'term_of_art'
 ]
 
 MIDDLEWARE = [

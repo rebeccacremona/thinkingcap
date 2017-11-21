@@ -17,9 +17,11 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from colors import urls as colors_urls
 from onthisday import urls as onthisday_urls
+from term_of_art import urls as term_of_art_urls
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     # url(r'^', include(urls)),
     url(r'^colors/', include(colors_urls)),
+    url(r'^term-of-art/', include(term_of_art_urls)),
 ]
